@@ -1,0 +1,25 @@
+# Fichiers d'environnement
+.env
+*.env.*
+
+# Dossiers de dépendances
+node_modules/
+
+# Fichiers système Windows/Mac
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers de compilation
+*.exe
+*.dll
+*.pdb
+
+# Fichiers d'IDE
+.idea/
+.vscode/
+*.suo
+*.user
+
+# Lock file (optionnel, on l'exclut pour garder le repo léger)
+package-lock.json
